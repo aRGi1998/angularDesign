@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <ul>
+                <li *ngFor="let employee of employees">{{ employee }}</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <button (click)="sortEmployees()">Sort Employees</button>
+        </div>
+    </div>
+</div>  
